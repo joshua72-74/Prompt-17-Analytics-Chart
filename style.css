@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    font-family: Helvetica;
+
+    display: flex;
+
+}
+
+.container-1{
+    width: 5%;
+    height: 100%;
+
+    /* background-color: greenyellow; */
+    background: linear-gradient(to right, #232526, #414345);
+    color: rgb(253, 243, 230);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-1>div{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20px;
+}
+
+.container-1 i{
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.container-1>div>i:first-child{
+    color: aqua;
+    text-shadow: 0 0 4px white;
+
+}
+
+
+
+.container-2{
+    width: 95%;
+    height: 100%;
+
+    /* background-color: yellow; */
+    background-color: #243B55;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2 nav{
+    width: 100%;
+    height: 10%;
+
+    /* background-color: red; */
+    background: linear-gradient(to right, #232526, #414345);
+    color: rgb(253, 243, 230);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2 nav i{
+    font-size: 30px;
+
+    margin: 0 10px;
+}
+
+.container-2 nav img{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    object-position: center;
+    object-fit: cover;
+
+    margin: 0 10px;
+}
+
+/*  */
+
+
+.section{
+    width: 80%;
+    height: 80%;
+
+    padding: 10px;
+
+    /* background-color: greenyellow; */
+    background-color: rgba(0, 0, 0, 0.242);
+    color: antiquewhite;
+
+}
+
+.row-1{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+
+}
+
+.section-1{
+    width: 16%;
+    height: 110px;
+
+    color: white;
+
+    /* background-color: red; */
+    background: #053e44;
+
+    margin: 5px 8px;
+
+    border-radius: 10px;
+}
+
+.section-1>div{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+
+
+}
+
+.section-1 i{
+    font-size: 35px;
+}
+
+.section-1 p{
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.section-2{
+    /* padding: 10px; */
+
+    width: 68%;
+    height: 110px;
+
+    color: white;
+
+    /* background-color: red; */
+    background: #05474d;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 5px 8px;
+
+    border-radius: 10px;
+
+
+}
+
+.section-2 h1{
+    font-size: 30px;
+}
+
+.section-2 p{
+    margin-top: 10px;
+}
+
+#timer{
+    margin-top: 20px;
+    font-size: 35px;
+
+    color: antiquewhite;
+}
