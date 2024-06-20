@@ -12,6 +12,7 @@ Consider the important statistics to show, percentages, points, avatar pictures 
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -43,7 +44,7 @@ Consider the important statistics to show, percentages, points, avatar pictures 
 
             <div class="section">
 
-                <h1>Leaderboard analysis</h1>
+                <h1>Analytics chart</h1>
 
                 <div class="row-1">
                     <div class="section-1">
@@ -70,8 +71,50 @@ Consider the important statistics to show, percentages, points, avatar pictures 
                         <p id="timer"></p>
                     </div>
                 </div>
-                
 
+                <div class="row-2">
+                    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                    <canvas id="myChart2" style="width:90%;max-width:500px"></canvas>
+                </div>
+
+                <div class="row-3">
+                    <h1>Global ranking of players</h1>
+                    <table>
+                        <th>
+                            <!-- <td>Rank</td> -->
+                            <td>Name</td>
+                            <td>Nation</td>
+                            <td>Time Spent</td>
+                            <td>Victories</td>
+                        </th>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Jeremiah</td>
+                            <td>India</td>
+                            <td>147 hrs</td>
+                            <td>230</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Philip</td>
+                            <td>France</td>
+                            <td>136 hrs</td>
+                            <td>227</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Thomas</td>
+                            <td>England</td>
+                            <td>122 hrs</td>
+                            <td>220</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            
             </div>
         </div>
 

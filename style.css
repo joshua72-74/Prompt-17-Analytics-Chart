@@ -190,3 +190,25 @@ body{
 
     color: antiquewhite;
 }
+
+
+.row-2{
+    background-color: #fff;
+
+    display: flex;
+}
+
+.row-3{
+    width: 100%;
+}
+
+.row-3 table{
+    width: 100%;
+
+    border: 1px solid antiquewhite;
+}
+
+.row-3 th{
+    font-weight: 700;
+}
+
